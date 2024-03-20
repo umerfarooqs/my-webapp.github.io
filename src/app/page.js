@@ -27,7 +27,7 @@ export default function Home() {
     <div style={{ marginTop: '30px', marginLeft: '40px',fontSize:"16px" }} className='flex justify-between items-center  max-w-6xl mx-auto w-full'>
     <Header/>
     </div>
-    <div style={{marginTop:"24px",marginLeft:"40PX",fontSize:"16px"}}><Button style={{backgroundColor:"#FFFFFF",color:"#000000",borderRadius:"30px",hover:"red"}}>Let's Talk</Button></div>
+    <div style={{marginTop:"24px",marginLeft:"40PX",fontSize:"16px"}}><Button style={{backgroundColor:"#FFFFFF",color:"#000000",borderRadius:"30px",hover:"red"}}>Let&apos;s Talk</Button></div>
     </div>
     <div>
     <Hero></Hero>
