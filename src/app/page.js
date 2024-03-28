@@ -8,7 +8,6 @@ import Center from './Components/Center';
 import Center1 from './Components/Center1';
 import Center2 from './Components/Center2';
 import Center3 from './Components/Center3';
-import ImageC from './Components/ImageC';
 import Center4 from './Components/Center4';
 import Testamnoils from './Components/Testamnoils';
 import Center5 from './Components/Center5';
@@ -21,7 +20,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div>
-    <div className='flex'>
+    <div className='flex 2xl:justify-center xl:justify-center'>
     <div style={{ marginTop: '30px', marginLeft: '150px' }}><Image src="/logo.png" alt="Logo Image" width={139} height={42} />
 </div>
     <div style={{ marginTop: '30px', marginLeft: '40px',fontSize:"16px" }} className='flex justify-between items-center  max-w-6xl mx-auto w-full'>
@@ -29,7 +28,7 @@ export default function Home() {
     </div>
     <div style={{marginTop:"24px",marginLeft:"40PX",fontSize:"16px"}}><Button style={{backgroundColor:"#FFFFFF",color:"#000000",borderRadius:"30px",hover:"red"}}>Let&apos;s Talk</Button></div>
     </div>
-    <div>
+    <div className='2xl:justify-center'>
     <Hero></Hero>
     <div style={{marginTop:"40px",alignItems:"center"}}>
     <Listitem/>

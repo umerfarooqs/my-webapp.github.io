@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 export default function Hero() {
   return (
-    <div style={{marginTop:"100px"}} className='flex'>
+    <div style={{marginTop:"100px"}} className='flex 2xl:justify-center xl:justify-center'>
     <div style={{marginTop:"134px"}}>
       <Image src="/Vector1.png" alt="Logo Image" width={38} height={38} style={{marginLeft:"105px"}}></Image>
       <Image src="/Frame2.png" alt="Logo Image" width={213} height={152}></Image>

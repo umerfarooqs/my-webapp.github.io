@@ -9,7 +9,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 export default function Fotter() {
   return (
-    <div className='container flex'>
+    <div className='container flex 2xl:justify-center xl:justify-center m-auto'>
         <div className='w-1/4' style={{marginLeft:"60px"}}>
             <Image src="./Footer.svg" alt='image' width={139.43} height={42}></Image>
             <p style={{fontSize:"16px",fontWeight:"500",lineHeight:"28px",color:"#A7ABB6"}}>Our software development company specializes in crafting robust, scalable, and secure software solutions compatible with any operating system, browser, or device.</p>

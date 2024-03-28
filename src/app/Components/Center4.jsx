@@ -3,7 +3,7 @@ import Button from './Button'
 import Image from 'next/image'
 export default function Center4() {
   return (
-    <div style={{marginTop:"150px"}} className='container'>
+    <div style={{marginTop:"150px", margin:"auto"}} className='container'>
     <div className='flex'>
         <div style={{marginLeft:"110px"}}><p style={{fontWeight:"400",color:"#A7ABB6",lineHeight:"18.63px",fontSize:"16px"}} className='w-1/2	'>Inpiration</p>
         <h1 style={{fontSize:"40px",lineHeight:"54px",fontWeight:"700",color:"#202020",marginTop:"15px"}}>UI Design Exploration</h1>

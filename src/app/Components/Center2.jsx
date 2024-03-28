@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Button from './Button'
 export default function Center2() {
   return (
-    <div className='flex' style={{marginTop:"100px"}}>
+    <div className='flex 2xl:justify-center xl:justify-center' style={{marginTop:"100px"}}>
         <div style={{marginLeft:"53px"}}>
             <Image src="./Frame4.svg" alt="Image" width={570} height={451}></Image>
         </div>

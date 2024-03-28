@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Center1() {
   return (
-    <div style={{marginTop:"150px",marginLeft:"76px",color:"#A7ABB6"}} className='flex'>
+    <div style={{marginTop:"150px",marginLeft:"76px",color:"#A7ABB6"}} className='flex 2xl:justify-center xl:justify-center'>
         <div><p style={{fontSize:"18px",fontWeight:"400",lineHeight:"20.63px"}}>Why Choose Us</p><br></br>
         <h1 style={{fontSize:"40px",fontWeight:"700",lineHeight:"54px",color:"#202020"}}>Fast Work is our focus</h1>
         <p style={{color:"#A7ABB6",fontSize:"18PX",fontWeight:"400",lineHeight:"28PX",marginTop:"28px"}}>Quality is at the core of what we do. Rigorous testing<br></br> processes guarantee top-tier performance and<br></br> reliability in every solution we deliver. As your<br></br> strategic partner, we are dedicated to your success.</p>

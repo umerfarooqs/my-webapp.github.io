@@ -4,7 +4,7 @@ import Button from './Button'
 
 export default function Center() {
   return (
-    <div className='flex' style={{marginTop:"50px"}}>
+    <div className='flex 2xl:justify-center xl:justify-center' style={{marginTop:"50px"}}>
     <div>
     <Image src="./center.svg" alt="Image" width={324} height={298} style={{marginLeft:"68px"}}></Image>
     </div>
