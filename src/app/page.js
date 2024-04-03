@@ -12,21 +12,17 @@ import Center4 from './Components/Center4';
 import Testamnoils from './Components/Testamnoils';
 import Center5 from './Components/Center5';
 import Fotter from './Components/Fotter';
-import { CiFacebook } from "react-icons/ci";
-import { FaXTwitter } from "react-icons/fa6";
-import { BiLogoGmail } from "react-icons/bi";
-import { FaLinkedinIn } from "react-icons/fa";
 import Link from 'next/link';
-export default function Home() {
+export default function Home(){
   return (
-    <div>
-    <div className='flex 2xl:justify-center xl:justify-center'>
-    <div style={{ marginTop: '30px', marginLeft: '150px' }}><Image src="/logo.png" alt="Logo Image" width={139} height={42} />
+    <div className=''>
+    <div className='flex 2xl:justify-center xl:justify-center md:justify-center sm:justify-center gap-60'>
+    <div style={{display:'flex',alignItems:'center',justifyContent:'center'}}><Image src="/logo.png" alt="Logo Image" width={139} height={42} />
 </div>
-    <div style={{ marginTop: '30px', marginLeft: '40px',fontSize:"16px" }} className='flex justify-between items-center  max-w-6xl mx-auto w-full'>
+    <div style={{display:'flex',alignItems:'center',justifyContent:'center'}} className='gap-12'>
     <Header/>
     </div>
-    <div style={{marginTop:"24px",marginLeft:"40PX",fontSize:"16px"}}><Button style={{backgroundColor:"#FFFFFF",color:"#000000",borderRadius:"30px",hover:"red"}}>Let&apos;s Talk</Button></div>
+    <div style={{display:'flex',alignItems:'center',justifyContent:'center'}}><Button style={{backgroundColor:"#FFFFFF",color:"#000000",borderRadius:"30px",hover:"red"}}>Let&apos;s Talk</Button></div>
     </div>
     <div className='2xl:justify-center'>
     <Hero></Hero>
@@ -38,11 +34,10 @@ export default function Home() {
       <Button>Start a Project</Button>
     </div>
     <div className='flex justify-center mt-12 gap-10'>
-    <div className='rounded-full'><Link href="https://example.com"><CiFacebook /></Link></div>
-    
-    <div className='rounded-full'><Link href="https://example.com"><FaXTwitter /></Link></div>
-    <div className='rounded-full'><Link href="https://example.com"><BiLogoGmail /></Link></div>
-    <div className='rounded-full drop-shadow-2xl'><Link href="https://example.com"><FaLinkedinIn /></Link></div>
+    <div className=''><Link href="/example1"><Image src="/Imgf1.svg" alt='icons' width={80} height={80}></Image></Link></div>
+    <div className=''><Link href="/example2"><Image src="/Imgf2.svg" alt='icons' width={80} height={80}></Image></Link></div>
+    <div className=''><Link href="/example3"><Image src="/Imgf3.svg" alt='icons' width={80} height={80}></Image></Link></div>    
+    <div className=''><Link href="/example4"><Image src="/Imgf4.svg" alt='icons' width={80} height={80}></Image></Link></div> 
     </div>
     <div>
       <Center></Center>
